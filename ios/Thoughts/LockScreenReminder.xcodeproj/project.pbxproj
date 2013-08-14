@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38082A5A15EF593900AF523B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 38082A5615EF593900AF523B /* Icon.png */; };
+		38082A5B15EF593900AF523B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38082A5715EF593900AF523B /* Icon@2x.png */; };
+		38082A5C15EF593900AF523B /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 38082A5815EF593900AF523B /* iTunesArtwork */; };
+		38082A5D15EF593900AF523B /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 38082A5915EF593900AF523B /* iTunesArtwork@2x */; };
+		3829EDEE15EB6D73004FFAED /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829EDEC15EB6D73004FFAED /* ReminderViewController.m */; };
+		3829EDEF15EB6D73004FFAED /* ReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3829EDED15EB6D73004FFAED /* ReminderViewController.xib */; };
+		3829EDF115EB6FD9004FFAED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3829EDF015EB6FD9004FFAED /* QuartzCore.framework */; };
+		3829EDF415EB82AD004FFAED /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3829EDF315EB82AD004FFAED /* logo.png */; };
+		3829EDF815EB8519004FFAED /* AboutController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829EDF615EB8519004FFAED /* AboutController.m */; };
+		3829EDF915EB8519004FFAED /* AboutController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3829EDF715EB8519004FFAED /* AboutController.xib */; };
+		3829EE1515EB8561004FFAED /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829EDFC15EB8561004FFAED /* Facebook.m */; };
+		3829EE1615EB8561004FFAED /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3829EDFE15EB8561004FFAED /* FBDialog.bundle */; };
+		3829EE1715EB8561004FFAED /* FBDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829EE0015EB8561004FFAED /* FBDialog.m */; };
+		3829EE1815EB8561004FFAED /* FBFrictionlessRequestSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829EE0215EB8561004FFAED /* FBFrictionlessRequestSettings.m */; };
+		3829EE1915EB8561004FFAED /* FBLoginDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829EE0415EB8561004FFAED /* FBLoginDialog.m */; };
+		3829EE1A15EB8561004FFAED /* FBRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829EE0615EB8561004FFAED /* FBRequest.m */; };
+		3829EE1B15EB8561004FFAED /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829EE0A15EB8561004FFAED /* NSObject+SBJSON.m */; };
+		3829EE1C15EB8561004FFAED /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829EE0C15EB8561004FFAED /* NSString+SBJSON.m */; };
+		3829EE1D15EB8561004FFAED /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829EE0E15EB8561004FFAED /* SBJSON.m */; };
+		3829EE1E15EB8561004FFAED /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829EE1015EB8561004FFAED /* SBJsonBase.m */; };
+		3829EE1F15EB8561004FFAED /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829EE1215EB8561004FFAED /* SBJsonParser.m */; };
+		3829EE2015EB8561004FFAED /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3829EE1415EB8561004FFAED /* SBJsonWriter.m */; };
+		3829EE2215EB86C0004FFAED /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3829EE2115EB86C0004FFAED /* Localizable.strings */; };
+		384A4C7C1555666D00341F14 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384A4C7B1555666D00341F14 /* AssetsLibrary.framework */; };
+		384A4C8315556EAD00341F14 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384A4C8215556EAD00341F14 /* CoreText.framework */; };
+		38DB0DA8154DA5FF0014AFFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DB0DA7154DA5FF0014AFFF /* UIKit.framework */; };
+		38DB0DAA154DA5FF0014AFFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DB0DA9154DA5FF0014AFFF /* Foundation.framework */; };
+		38DB0DAC154DA5FF0014AFFF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DB0DAB154DA5FF0014AFFF /* CoreGraphics.framework */; };
+		38DB0DB2154DA5FF0014AFFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38DB0DB0154DA5FF0014AFFF /* InfoPlist.strings */; };
+		38DB0DB4154DA5FF0014AFFF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DB0DB3154DA5FF0014AFFF /* main.m */; };
+		38DB0DB8154DA5FF0014AFFF /* TestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DB0DB7154DA5FF0014AFFF /* TestAppDelegate.m */; };
+		38DB0DBB154DA5FF0014AFFF /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38DB0DBA154DA5FF0014AFFF /* TestViewController.m */; };
+		38DB0DBE154DA5FF0014AFFF /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38DB0DBC154DA5FF0014AFFF /* TestViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38082A5615EF593900AF523B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+		38082A5715EF593900AF523B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = SOURCE_ROOT; };
+		38082A5815EF593900AF523B /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = SOURCE_ROOT; };
+		38082A5915EF593900AF523B /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = SOURCE_ROOT; };
+		3829EDEB15EB6D73004FFAED /* ReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderViewController.h; sourceTree = "<group>"; };
+		3829EDEC15EB6D73004FFAED /* ReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderViewController.m; sourceTree = "<group>"; };
+		3829EDED15EB6D73004FFAED /* ReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReminderViewController.xib; sourceTree = "<group>"; };
+		3829EDF015EB6FD9004FFAED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3829EDF315EB82AD004FFAED /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = SOURCE_ROOT; };
+		3829EDF515EB8519004FFAED /* AboutController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutController.h; sourceTree = "<group>"; };
+		3829EDF615EB8519004FFAED /* AboutController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutController.m; sourceTree = "<group>"; };
+		3829EDF715EB8519004FFAED /* AboutController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutController.xib; sourceTree = "<group>"; };
+		3829EDFB15EB8561004FFAED /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
+		3829EDFC15EB8561004FFAED /* Facebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
+		3829EDFD15EB8561004FFAED /* FBConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBConnect.h; sourceTree = "<group>"; };
+		3829EDFE15EB8561004FFAED /* FBDialog.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FBDialog.bundle; sourceTree = "<group>"; };
+		3829EDFF15EB8561004FFAED /* FBDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBDialog.h; sourceTree = "<group>"; };
+		3829EE0015EB8561004FFAED /* FBDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBDialog.m; sourceTree = "<group>"; };
+		3829EE0115EB8561004FFAED /* FBFrictionlessRequestSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBFrictionlessRequestSettings.h; sourceTree = "<group>"; };
+		3829EE0215EB8561004FFAED /* FBFrictionlessRequestSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBFrictionlessRequestSettings.m; sourceTree = "<group>"; };
+		3829EE0315EB8561004FFAED /* FBLoginDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBLoginDialog.h; sourceTree = "<group>"; };
+		3829EE0415EB8561004FFAED /* FBLoginDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBLoginDialog.m; sourceTree = "<group>"; };
+		3829EE0515EB8561004FFAED /* FBRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBRequest.h; sourceTree = "<group>"; };
+		3829EE0615EB8561004FFAED /* FBRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBRequest.m; sourceTree = "<group>"; };
+		3829EE0815EB8561004FFAED /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		3829EE0915EB8561004FFAED /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		3829EE0A15EB8561004FFAED /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		3829EE0B15EB8561004FFAED /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		3829EE0C15EB8561004FFAED /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		3829EE0D15EB8561004FFAED /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		3829EE0E15EB8561004FFAED /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		3829EE0F15EB8561004FFAED /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		3829EE1015EB8561004FFAED /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		3829EE1115EB8561004FFAED /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		3829EE1215EB8561004FFAED /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		3829EE1315EB8561004FFAED /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		3829EE1415EB8561004FFAED /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		3829EE2115EB86C0004FFAED /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		384A4C7B1555666D00341F14 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		384A4C8215556EAD00341F14 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		38DB0DA3154DA5FF0014AFFF /* LockScreenReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LockScreenReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38DB0DA7154DA5FF0014AFFF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38DB0DA9154DA5FF0014AFFF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38DB0DAB154DA5FF0014AFFF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38DB0DAF154DA5FF0014AFFF /* LockScreenReminder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LockScreenReminder-Info.plist"; sourceTree = "<group>"; };
+		38DB0DB1154DA5FF0014AFFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38DB0DB3154DA5FF0014AFFF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38DB0DB5154DA5FF0014AFFF /* LockScreenReminder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LockScreenReminder-Prefix.pch"; sourceTree = "<group>"; };
+		38DB0DB6154DA5FF0014AFFF /* TestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAppDelegate.h; sourceTree = "<group>"; };
+		38DB0DB7154DA5FF0014AFFF /* TestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAppDelegate.m; sourceTree = "<group>"; };
+		38DB0DB9154DA5FF0014AFFF /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		38DB0DBA154DA5FF0014AFFF /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		38DB0DBD154DA5FF0014AFFF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TestViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38DB0DA0154DA5FF0014AFFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3829EDF115EB6FD9004FFAED /* QuartzCore.framework in Frameworks */,
+				384A4C8315556EAD00341F14 /* CoreText.framework in Frameworks */,
+				384A4C7C1555666D00341F14 /* AssetsLibrary.framework in Frameworks */,
+				38DB0DA8154DA5FF0014AFFF /* UIKit.framework in Frameworks */,
+				38DB0DAA154DA5FF0014AFFF /* Foundation.framework in Frameworks */,
+				38DB0DAC154DA5FF0014AFFF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3829EDF215EB82A0004FFAED /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				38082A5615EF593900AF523B /* Icon.png */,
+				38082A5715EF593900AF523B /* Icon@2x.png */,
+				38082A5815EF593900AF523B /* iTunesArtwork */,
+				38082A5915EF593900AF523B /* iTunesArtwork@2x */,
+				3829EDF315EB82AD004FFAED /* logo.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3829EDFA15EB8561004FFAED /* FB */ = {
+			isa = PBXGroup;
+			children = (
+				3829EDFB15EB8561004FFAED /* Facebook.h */,
+				3829EDFC15EB8561004FFAED /* Facebook.m */,
+				3829EDFD15EB8561004FFAED /* FBConnect.h */,
+				3829EDFE15EB8561004FFAED /* FBDialog.bundle */,
+				3829EDFF15EB8561004FFAED /* FBDialog.h */,
+				3829EE0015EB8561004FFAED /* FBDialog.m */,
+				3829EE0115EB8561004FFAED /* FBFrictionlessRequestSettings.h */,
+				3829EE0215EB8561004FFAED /* FBFrictionlessRequestSettings.m */,
+				3829EE0315EB8561004FFAED /* FBLoginDialog.h */,
+				3829EE0415EB8561004FFAED /* FBLoginDialog.m */,
+				3829EE0515EB8561004FFAED /* FBRequest.h */,
+				3829EE0615EB8561004FFAED /* FBRequest.m */,
+				3829EE0715EB8561004FFAED /* JSON */,
+			);
+			path = FB;
+			sourceTree = "<group>";
+		};
+		3829EE0715EB8561004FFAED /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				3829EE0815EB8561004FFAED /* JSON.h */,
+				3829EE0915EB8561004FFAED /* NSObject+SBJSON.h */,
+				3829EE0A15EB8561004FFAED /* NSObject+SBJSON.m */,
+				3829EE0B15EB8561004FFAED /* NSString+SBJSON.h */,
+				3829EE0C15EB8561004FFAED /* NSString+SBJSON.m */,
+				3829EE0D15EB8561004FFAED /* SBJSON.h */,
+				3829EE0E15EB8561004FFAED /* SBJSON.m */,
+				3829EE0F15EB8561004FFAED /* SBJsonBase.h */,
+				3829EE1015EB8561004FFAED /* SBJsonBase.m */,
+				3829EE1115EB8561004FFAED /* SBJsonParser.h */,
+				3829EE1215EB8561004FFAED /* SBJsonParser.m */,
+				3829EE1315EB8561004FFAED /* SBJsonWriter.h */,
+				3829EE1415EB8561004FFAED /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		38DB0D98154DA5FF0014AFFF = {
+			isa = PBXGroup;
+			children = (
+				3829EDFA15EB8561004FFAED /* FB */,
+				38DB0DAD154DA5FF0014AFFF /* Thoughts */,
+				38DB0DA6154DA5FF0014AFFF /* Frameworks */,
+				38DB0DA4154DA5FF0014AFFF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38DB0DA4154DA5FF0014AFFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38DB0DA3154DA5FF0014AFFF /* LockScreenReminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38DB0DA6154DA5FF0014AFFF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3829EDF015EB6FD9004FFAED /* QuartzCore.framework */,
+				384A4C8215556EAD00341F14 /* CoreText.framework */,
+				384A4C7B1555666D00341F14 /* AssetsLibrary.framework */,
+				38DB0DA7154DA5FF0014AFFF /* UIKit.framework */,
+				38DB0DA9154DA5FF0014AFFF /* Foundation.framework */,
+				38DB0DAB154DA5FF0014AFFF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38DB0DAD154DA5FF0014AFFF /* Thoughts */ = {
+			isa = PBXGroup;
+			children = (
+				3829EDF515EB8519004FFAED /* AboutController.h */,
+				3829EDF615EB8519004FFAED /* AboutController.m */,
+				3829EDF715EB8519004FFAED /* AboutController.xib */,
+				3829EDF215EB82A0004FFAED /* Images */,
+				3829EDEB15EB6D73004FFAED /* ReminderViewController.h */,
+				3829EDEC15EB6D73004FFAED /* ReminderViewController.m */,
+				3829EDED15EB6D73004FFAED /* ReminderViewController.xib */,
+				38DB0DB6154DA5FF0014AFFF /* TestAppDelegate.h */,
+				38DB0DB7154DA5FF0014AFFF /* TestAppDelegate.m */,
+				38DB0DB9154DA5FF0014AFFF /* TestViewController.h */,
+				38DB0DBA154DA5FF0014AFFF /* TestViewController.m */,
+				38DB0DBC154DA5FF0014AFFF /* TestViewController.xib */,
+				38DB0DAE154DA5FF0014AFFF /* Supporting Files */,
+			);
+			path = Thoughts;
+			sourceTree = "<group>";
+		};
+		38DB0DAE154DA5FF0014AFFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38DB0DAF154DA5FF0014AFFF /* LockScreenReminder-Info.plist */,
+				38DB0DB0154DA5FF0014AFFF /* InfoPlist.strings */,
+				38DB0DB3154DA5FF0014AFFF /* main.m */,
+				38DB0DB5154DA5FF0014AFFF /* LockScreenReminder-Prefix.pch */,
+				3829EE2115EB86C0004FFAED /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38DB0DA2154DA5FF0014AFFF /* LockReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38DB0DC1154DA5FF0014AFFF /* Build configuration list for PBXNativeTarget "LockReminder" */;
+			buildPhases = (
+				38DB0D9F154DA5FF0014AFFF /* Sources */,
+				38DB0DA0154DA5FF0014AFFF /* Frameworks */,
+				38DB0DA1154DA5FF0014AFFF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LockReminder;
+			productName = Thoughts;
+			productReference = 38DB0DA3154DA5FF0014AFFF /* LockScreenReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38DB0D9A154DA5FF0014AFFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Test;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 38DB0D9D154DA5FF0014AFFF /* Build configuration list for PBXProject "LockScreenReminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 38DB0D98154DA5FF0014AFFF;
+			productRefGroup = 38DB0DA4154DA5FF0014AFFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38DB0DA2154DA5FF0014AFFF /* LockReminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38DB0DA1154DA5FF0014AFFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DB0DB2154DA5FF0014AFFF /* InfoPlist.strings in Resources */,
+				38DB0DBE154DA5FF0014AFFF /* TestViewController.xib in Resources */,
+				3829EDEF15EB6D73004FFAED /* ReminderViewController.xib in Resources */,
+				3829EDF415EB82AD004FFAED /* logo.png in Resources */,
+				3829EDF915EB8519004FFAED /* AboutController.xib in Resources */,
+				3829EE1615EB8561004FFAED /* FBDialog.bundle in Resources */,
+				3829EE2215EB86C0004FFAED /* Localizable.strings in Resources */,
+				38082A5A15EF593900AF523B /* Icon.png in Resources */,
+				38082A5B15EF593900AF523B /* Icon@2x.png in Resources */,
+				38082A5C15EF593900AF523B /* iTunesArtwork in Resources */,
+				38082A5D15EF593900AF523B /* iTunesArtwork@2x in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38DB0D9F154DA5FF0014AFFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DB0DB4154DA5FF0014AFFF /* main.m in Sources */,
+				38DB0DB8154DA5FF0014AFFF /* TestAppDelegate.m in Sources */,
+				38DB0DBB154DA5FF0014AFFF /* TestViewController.m in Sources */,
+				3829EDEE15EB6D73004FFAED /* ReminderViewController.m in Sources */,
+				3829EDF815EB8519004FFAED /* AboutController.m in Sources */,
+				3829EE1515EB8561004FFAED /* Facebook.m in Sources */,
+				3829EE1715EB8561004FFAED /* FBDialog.m in Sources */,
+				3829EE1815EB8561004FFAED /* FBFrictionlessRequestSettings.m in Sources */,
+				3829EE1915EB8561004FFAED /* FBLoginDialog.m in Sources */,
+				3829EE1A15EB8561004FFAED /* FBRequest.m in Sources */,
+				3829EE1B15EB8561004FFAED /* NSObject+SBJSON.m in Sources */,
+				3829EE1C15EB8561004FFAED /* NSString+SBJSON.m in Sources */,
+				3829EE1D15EB8561004FFAED /* SBJSON.m in Sources */,
+				3829EE1E15EB8561004FFAED /* SBJsonBase.m in Sources */,
+				3829EE1F15EB8561004FFAED /* SBJsonParser.m in Sources */,
+				3829EE2015EB8561004FFAED /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		38DB0DB0154DA5FF0014AFFF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DB0DB1154DA5FF0014AFFF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38DB0DBC154DA5FF0014AFFF /* TestViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38DB0DBD154DA5FF0014AFFF /* en */,
+			);
+			name = TestViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38DB0DBF154DA5FF0014AFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yordanka Nikolova";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yordanka Nikolova";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "EA7EC504-A612-49D0-AE5B-DB6255D3C1AF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EA7EC504-A612-49D0-AE5B-DB6255D3C1AF";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38DB0DC0154DA5FF0014AFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yordanka Nikolova";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yordanka Nikolova";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "EA7EC504-A612-49D0-AE5B-DB6255D3C1AF";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EA7EC504-A612-49D0-AE5B-DB6255D3C1AF";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38DB0DC2154DA5FF0014AFFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yordanka Nikolova";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yordanka Nikolova";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thoughts/LockScreenReminder-Prefix.pch";
+				INFOPLIST_FILE = "Thoughts/LockScreenReminder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = LockScreenReminder;
+				PROVISIONING_PROFILE = "0C1D7C73-2981-4084-A17D-310DCC21163A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0C1D7C73-2981-4084-A17D-310DCC21163A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38DB0DC3154DA5FF0014AFFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Yordanka Nikolova";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Yordanka Nikolova";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thoughts/LockScreenReminder-Prefix.pch";
+				INFOPLIST_FILE = "Thoughts/LockScreenReminder-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = LockScreenReminder;
+				PROVISIONING_PROFILE = "0C1D7C73-2981-4084-A17D-310DCC21163A";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "0C1D7C73-2981-4084-A17D-310DCC21163A";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38DB0D9D154DA5FF0014AFFF /* Build configuration list for PBXProject "LockScreenReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DB0DBF154DA5FF0014AFFF /* Debug */,
+				38DB0DC0154DA5FF0014AFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38DB0DC1154DA5FF0014AFFF /* Build configuration list for PBXNativeTarget "LockReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38DB0DC2154DA5FF0014AFFF /* Debug */,
+				38DB0DC3154DA5FF0014AFFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38DB0D9A154DA5FF0014AFFF /* Project object */;
+}
